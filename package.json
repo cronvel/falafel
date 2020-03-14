@@ -1,7 +1,7 @@
 {
   "name": "@cronvel/falafel",
   "description": "transform the ast on a recursive walk",
-  "version": "2.1.0",
+  "version": "2.2.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/cronvel/falafel.git"
@@ -24,16 +24,18 @@
     "test": "node --harmony test/bin/run.js test/*.js"
   },
   "dependencies": {
-    "acorn": "^7.0.0",
+    "acorn": "^7.1.1",
     "foreach": "^2.0.5",
-    "isarray": "^2.0.5",
+    "isarray": "^2.0.1",
     "object-keys": "^1.0.6"
   },
   "devDependencies": {
-    "acorn-jsx": "^3.0.0",
+    "acorn-jsx": "^5.2.0",
     "covert": "^1.1.0",
-    "glob": "^6.0.4",
-    "tape": "^4.0.0"
+    "glob": "^7.1.6",
+    "safe-buffer": "^5.2.0",
+    "semver": "^7.1.3",
+    "tape": "^4.13.2"
   },
   "engines": {
     "node": ">=0.4.0"
